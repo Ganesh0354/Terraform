@@ -1,11 +1,2 @@
-# Ignore Terraform directories and state files
-
-*.tfstate
-*.tfstate.backup
-.terraform.lock.hcl
-
-# Ignore provider binaries
-.terraform/providers/
-
-# Ignore crash logs
-crash.log
+*
+! .terraform
